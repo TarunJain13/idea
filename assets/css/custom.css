@@ -6,8 +6,8 @@
 
 .site-nav {
   display: flex;
-  gap: 22px;
-  padding: 16px 0;
+  gap: 36px;              /* space between menu items */
+  padding: 18px 24px;     /* vertical + horizontal padding */
   overflow-x: auto;
   white-space: nowrap;
 }
@@ -17,6 +17,7 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 18px;
+  padding: 6px 0;         /* adds click area + visual spacing */
 }
 
 .nav-link:hover {
